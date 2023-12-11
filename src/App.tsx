@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      {userExist === null  || undefined ? (
+      {userExist === null || undefined ? (
         <Routes>
           <Route path="/sign-in" element={<LogIn toUrlServer={"signIn"} />} />
           <Route path="/sign-up" element={<LogIn toUrlServer={"signUp"} />} />
